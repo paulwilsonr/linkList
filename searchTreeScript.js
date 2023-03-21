@@ -247,3 +247,6 @@ testTree.insert(104)
 prettyPrint(testTree.root)
 
 console.log(testTree.isBalanced())
+testTree.rebalance();
+prettyPrint(testTree.root)
+console.log(testTree.isBalanced())
